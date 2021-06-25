@@ -1,0 +1,9 @@
+pages\ViewMyDetailsPage.class
+pages\LoginPage.class
+utils\ReportUtils.class
+utils\ExcelReadUtil.class
+pages\HomePage.class
+tests\LoginTest.class
+tests\Base.class
+utils\ReadConfigData.class
+genericWrappers\Wrappers.class
