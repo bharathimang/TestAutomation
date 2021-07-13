@@ -51,5 +51,9 @@ public class LoginPage {
 		Wrappers.captureScreenshot();
 		}
 	}
+	
+	public void logOut() {
+		System.out.println("This is the logout method");
+	}
 
 }
