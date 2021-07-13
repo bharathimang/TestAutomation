@@ -37,7 +37,7 @@ public class ExcelReadUtil {
 		return sheet.getRow(row).getCell(cell).toString();
 	}
 	
-	@Test
+
 	public void compareSheets() throws Throwable {
 		File file=new File("C:\\Users\\bhara\\Desktop\\Testing1.xlsx");
 		FileInputStream fis=new FileInputStream(file);
