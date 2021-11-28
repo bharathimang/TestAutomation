@@ -24,6 +24,9 @@ public class HomePage {
 	@FindBy(xpath="//a[text()='Logout']")
 	WebElement logOut;
 	
+	@FindBy(xpath="//a[text()='Login']")
+	WebElement login;
+	
 	public HomePage(WebDriver driver) {
 		lDriver=driver;
 		PageFactory.initElements(driver, this);
